@@ -5,9 +5,9 @@ Simple CRUD application with:
 - Scala 
 - Play 2.4.x 
 - ScalikeJDBC (ORM/DSL/SQL) (http://scalikejdbc.org/)
-- AngularJS 
+- ReactJS 
 - json4s (http://json4s.org/)
-- H2 
+- H2 Database
 
 Usage
 -----
