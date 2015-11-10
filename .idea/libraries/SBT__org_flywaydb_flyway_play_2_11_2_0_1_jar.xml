@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.flywaydb:flyway-play_2.11:2.0.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.flywaydb/flyway-play_2.11/jars/flyway-play_2.11-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.flywaydb/flyway-play_2.11/docs/flyway-play_2.11-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.flywaydb/flyway-play_2.11/srcs/flyway-play_2.11-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

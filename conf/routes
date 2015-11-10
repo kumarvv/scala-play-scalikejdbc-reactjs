@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# static assets
+GET    /assets/*file           controllers.Assets.versioned(path="/public", file: Asset)
+GET    /webjars/*file          controllers.WebJarAssets.at(file)
+
+# Home page
+GET           /                    @controllers.Root.index
+
+GET           /dept                 @controllers.Depts.all
+GET           /dept/:id             @controllers.Depts.find(id: Long)
+POST          /dept                @controllers.Depts.create
+DELETE        /dept/:id            @controllers.Depts.delete(id: Long)
+PUT           /dept/:id            @controllers.Depts.update(id: Long)
+
+GET           /emp                 @controllers.Emps.all
+POST          /emp                 @controllers.Emps.create
+DELETE        /emp/:id             @controllers.Emps.delete(id: Long)
+PUT           /emp/:id             @controllers.Emps.update(id: Long)

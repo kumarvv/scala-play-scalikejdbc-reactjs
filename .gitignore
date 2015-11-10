@@ -1,0 +1,34 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+
+/RUNNING_PID
+### PlayFramework template
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.iml
+*.eml
+/dist/
+.cache
+activator
+activator-launch-1.3.6.jar
+activator.bat
+
+###npm
+/node_modules/
+npm-debug.log
